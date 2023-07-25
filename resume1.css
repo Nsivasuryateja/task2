@@ -1,0 +1,289 @@
+#image
+{
+    padding-left: 80px;
+}
+#nav
+{
+    padding-left: 800px;
+    padding-right: 140px;
+    
+}
+.nav
+{
+    position: fixed;
+    background-color: white;
+}
+#nav a
+{
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+   
+}
+#nav a:hover
+{
+    background-color:gray;
+    color: white;
+}
+#home
+{
+   background-image:url("https://drive.google.com/uc?export=download&id=1sadt3rfwxGvARbHuEFWQE9EaBzI0vpCF") ;
+   background-size: 1500px 1100px;
+}
+#con
+{
+    text-align: center;
+    display: flex;
+   padding-left: 350px;
+   padding-top: 200px;
+}
+#cv
+{
+  text-align: center;
+    padding-left: 900px;
+}
+#cv button
+{
+     color: black;
+     font-size: 30px;
+     background-color: white;
+     
+}
+#cv button:hover{
+ background-color: gray;
+ color:white ;
+}
+#text
+{
+    padding-left: 70px;
+}
+#text h3
+{
+    padding-left: 70px;
+    line-height: 40px;
+    max-width: 500px;
+    color: white;
+}
+#text h1
+{
+    color:white;
+    padding-left: 10px;
+}
+#text h2
+{
+    color: black;
+    background-color: white;
+}
+#skills
+{
+    background-image: url("https://drive.google.com/uc?export=download&id=1Iv6TFMNRtykw1CU_TJABxSRSuWq5bJE6");
+    background-size: 1500px 800px;
+}
+#heading
+{
+    text-align: center;
+    color: black;
+    font-size: 85px;
+    padding: 20px;
+    padding-left: 140px;
+    text-shadow: 4px  4px white;
+    padding-top: 40px;
+}
+#skillslist
+{
+    text-align: center;
+    max-width: 1000px;
+    font-size: 20px;
+    padding-left: 300px;
+    color: white;
+    font-family:cursive;
+    padding-bottom: 100px;
+}
+#skillslist li
+{
+    padding-top: 30px;
+} 
+#container
+{
+    display: flex;
+}
+#picture
+{
+    padding-top: 210px;
+    padding-left: 30px;
+    padding-bottom: 120px;
+}
+#download
+{
+    text-align: center;
+    padding-top: 20px;
+}
+#download button
+{
+    color: darkmagenta;
+    font-size: 40px;
+    background-color: lightyellow;
+}
+#download button:hover{
+    background-color: orange;
+}
+#projects
+{
+    background-image: url("https://drive.google.com/uc?export=download&id=1vCYn4P2pW6VBisrypZthMe5BpVYySc3z");
+    background-size: 1700px 800px;
+    text-align: center;
+}
+#title
+{
+    color:white;
+    text-align: center;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times1vCYn4P2pW6VBisrypZthMe5BpVYySc3z, 'Times New Roman', serif;
+    text-shadow: 4px  4px grey;
+    padding-top: 40px;
+}
+#block {
+    position: relative;
+    width: 50%;
+    max-width: 500px;
+    padding: 20px;
+    display: inline-block;
+}
+#pic {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s;
+}
+#overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s;
+}
+#block:hover #pic
+{
+    filter: blur(2px);
+}
+#block:hover #overlay {
+    opacity: 1.5;
+    visibility: visible;
+}
+#proj
+{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 30px;
+
+}
+#sep
+{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+#contact
+{
+    font-family: Arial, sans-serif;
+    background-image: url("https://drive.google.com/uc?export=download&id=1IQzfpnLdzHgygkaODw9lSQ9PthrYPxVT");
+    background-size: 1600px 800px;  
+    padding-top: 10px;
+}
+#header
+{
+    color: white;
+    font-size: 40px;
+    padding-left: 280px;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+label
+{
+    color: white;
+}
+#message form
+{
+    padding-left: 100px;
+}
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+#message button:hover
+{
+    color: white;
+    background-color: gray;
+}
+#social
+{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#contact-icons {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      padding-left: 300px;
+    }
+    #contact-icons i {
+      font-size: 24px;
+      color: grey;
+      margin-right: 5px;
+    }
+    #contact-text {
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+    }
+    #social-icons {
+      display: flex;
+      margin-top: 20px;
+      padding-right: 40px;
+      padding-left: 350px;
+    }
+    #social-icons li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 10px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      transition: background-color 0.3s ease;
+    }
+    #social-icons li:hover {
+      background-color: grey;
+      color: white;
+    }
+    .social-icon {
+      font-size: 24px;
+      color: black; 
+    }
+    button:hover
+    {
+        color:black;
+        background-color: white;
+    }
